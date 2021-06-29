@@ -29,8 +29,6 @@ const validator = {
     let mask = [];
     let creditCardNumberMask = [];
 
-    creditCardNumber = creditCardNumber.split("");
-
     for (let i = 0; i < creditCardNumber.length - 4; i++) {
       if (creditCardNumber.length > 4) {
         mask[i] = "#";
@@ -51,6 +49,24 @@ const validator = {
     console.log(creditCardNumber);
     return creditCardNumber;
   },
+
+  isNumber:(creditCardNumber) => {
+    let n = true;
+    for (let i = 0; i < creditCardNumber.length; i++) {
+      let num = Number(creditCardNumber[i]);
+
+      if (!isNaN(num)) {
+        console.log(creditCardNumber[i], typeof creditCardNumber[i]);
+        n = true;
+      }else {
+        console.log(creditCardNumber[i], " Not is a number NaN ",typeof creditCardNumber[i] );
+        n = false;
+        break;
+      }
+      console.log(n);      
+    }
+    return n;
+  }
 };
 
 export default validator;
