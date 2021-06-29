@@ -1,12 +1,18 @@
-
-import validator from './validator.js';
-
+import validator from "./validator.js";
 console.log(validator);
 
+document.getElementById("botonalerta").addEventListener("click", () => {
+  if (document.getElementById("numbertc").value === "") {
+    alert("Escribe tu numero de tarjeta para continuar");
+  } else {
+   validator.isValid(document.getElementById("numbertc").value);
 
-document.getElementById("botonalerta").addEventListener("click", validator.alerta)
+    validator.maskify(document.getElementById("numbertc").value);
+    
+   let isValidCardNumber = validator.isNumber(document.getElementById("numbertc").value);
+   alert(isValidCardNumber ? "Si son numeros" : "Contiene otro caracter diferente a numeros");
 
     
+  }
 
-  
-  
+});
