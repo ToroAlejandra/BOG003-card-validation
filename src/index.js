@@ -18,3 +18,4 @@ document.getElementById("botonalerta").addEventListener("click", () => {
 });
 document.getElementById("formTc").addEventListener("click", function (event) {
   event.preventDefault();
+})
