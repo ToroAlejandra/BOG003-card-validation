@@ -55,7 +55,7 @@ const validator = {
     let t = true;
     
     for (let i = 0; i < creditCardNumber.length; i++) {
-      let num = Number(creditCardNumber[i]);
+      //let num = Number(creditCardNumber[i]);
 
       if (!isNaN((creditCardNumber[i]))) {
 
