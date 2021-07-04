@@ -18,3 +18,8 @@ document.getElementById("botonalerta").addEventListener("click", () => {
 document.getElementById("formTc").addEventListener("click", function (event) {
   event.preventDefault();
 })
+
+document.getElementById("btn-next").addEventListener("click", () =>{
+  document.getElementById("first-section").style.display = "none";
+  document.getElementById("second-section").style.display = "block";
+});

@@ -4,17 +4,27 @@
     <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
   </head>
   <body>
     <header></header>
     <main>
-      <h1>Prueba 2</h1>
-      <form action="" id="formTc">
-        <input type="text" id="numberTc">
-        <button type="submit" id="botonalerta">continuar</button>
-
-      </form>
-
+      <section id="first-section">
+        <h1 class="h1-brand">GREEN· <span class="h1-span">&middot;store</span> </h1>
+        <img class="img-logo" src="img/planet-earth.png" alt="planet-earth">
+        <button id="btn-next" class="btn" type="submit">Continuar</button>
+      </section>
+      <section id="second-section" style="display:none;">
+        <form action="" id="formTc">
+          <input type="text" id="numberTc">
+          <button type="submit" id="botonalerta">Verificar</button>
+          <button type="submit">Limpiar</button>
+        </form>
+      </section>
     </main>
 
     <footer></footer>

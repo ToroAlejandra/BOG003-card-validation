@@ -53,28 +53,19 @@ const validator = {
   isNumber: (creditCardNumber) => {
     
     let t = true;
-    
     for (let i = 0; i < creditCardNumber.length; i++) {
       //let num = Number(creditCardNumber[i]);
-
-      if (!isNaN((creditCardNumber[i]))) {
-
-    t = true;
-    console.log("valida",t);
-    
-  } else {
-    t = false;
-    console.log("error",t);
-    break;
-  }
-  
-}
-  
-return t;
- 
- 
- },  
-  
+      if (!isNaN((creditCardNumber[i])) && creditCardNumber[i] !== ' ') {
+      t = true;
+      console.log("valida",t," : ",creditCardNumber[i]);
+      } else {
+        t = false;
+        console.log("error",t);
+        break;
+      }
+    }
+    return t;
+  },   
 };
 
 
