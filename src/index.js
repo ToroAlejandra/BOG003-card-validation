@@ -22,7 +22,7 @@ document.getElementById("btn-verificar").addEventListener("click", () => {
 
    if(isValidCardNumber){
     if (isValidCreditCard) {
-      img.src = "img/cheque.svg";
+      img.src = "./Img/cheque.svg";
       document.getElementById("third-section").style.display = "block";
       document.getElementById("third-section").appendChild(img);
       document.getElementById("valid-card-modal").innerHTML = "Tu tarjeta \n"+maskifyNumber+" es Valida";
@@ -32,7 +32,7 @@ document.getElementById("btn-verificar").addEventListener("click", () => {
       }, 7000);
     } else{
       document.getElementById("third-section").style.display = "block";
-      document.getElementById("img-c").src="img/boton-x.png";
+      document.getElementById("img-c").src="./Img/boton-x.png";
       document.getElementById("valid-card-modal").innerHTML = "Tu tarjeta \n"+maskifyNumber+" No es valida";
       document.getElementById("msj-valid").innerHTML = "Intentalo nuevamente";
       setTimeout(function(){ 
