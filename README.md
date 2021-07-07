@@ -26,10 +26,10 @@ La planeación fue un item muy importante para establecer el paso a paso del pro
 
 ## Resultado Final
 
-![aplicativo final pantalla1](./src/Img/appfinalp1.png)
+![aplicativo final pantalla1](./src/Img/appfinalp1.PNG)
 ![aplicativo final pantalla2](./src/Img/appfinalp2.PNG)
 ![aplicativo final modal valido](./src/Img/appfinalmova.PNG)
-![aplicativo final modal invalido](src\Img\appfinalmoinva.PNG)
+![aplicativo final modal invalido](./src/Img/appfinalmoinva.PNG)
 
 * POPUP 
 - se muestra en caso de que los digitos no sean numeros, tenga espacio u otro caracter o este vacio.
