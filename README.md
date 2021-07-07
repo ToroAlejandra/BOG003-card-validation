@@ -14,8 +14,8 @@ Se define que sera una tienda ecologica en linea que ayude a disminuir el impact
 La planeación fue un item muy importante para establecer el paso a paso del proyecto. Comenzamos haciendo un prototipo sketch para luego pasarlo a un prototipo wreframe esto fue con la herramienta figma.
  
 ## Sketch 
-![](./src/img/prototipo1.jpeg)
-![](./src/img/prototipo1.jpeg)
+![](src\Img\prototipo1.jpeg)
+![](src\Img\prototipo2.jpeg)
 
 ## Wreframe
 ![](./src/img/Pantalla1.PNG)
