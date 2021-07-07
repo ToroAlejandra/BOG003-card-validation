@@ -7,8 +7,8 @@
 ### Explicación del proyecto
 
 #### Prototipo en papel
-![](img/prototipo1.jpeg){width='100px'} 
-![](img/prototipo2.jpeg){width='100px'} 
+![](./src/img/prototipo1.jpeg){width='100px'} 
+![](./src/img/prototipo2.jpeg){width='100px'} 
 
 
 ### Objetivos de aprendizaje cumplidos en el proyecto
