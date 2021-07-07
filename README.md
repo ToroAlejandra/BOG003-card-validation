@@ -7,8 +7,20 @@
 ### Explicación del proyecto
 
 #### Prototipo en papel
-![](./src/img/prototipo1.jpeg){width='100px'} 
-![](./src/img/prototipo2.jpeg){width='100px'} 
+![Prototipo en papel 1](./src/img/prototipo1.jpeg) 
+![Prototipo en papel 2](./src/img/prototipo2.jpeg)
+
+#### Prototipo en figma
+* ![Prototipo en figma pantalla 1](./src/img/w-pantalla1.png)
+* ![Prototipo en figma pantalla 2](./src/img/w-pantalla2.png)
+* ![Prototipo en figma ventana modal tarjeta valida ](./src/img/w-valida.png)
+* ![Prototipo en figma ventana modal tarjeta no valida](./src/img/w-invalida.png)
+
+#### Resultado final
+* ![Pantalla 1](./src/img/f-pantalla1.png)
+* ![Pantalla 2](./src/img/f-pantalla2.png)
+* ![Modal tarjeta valida](./src/img/f-valida.png)
+* ![Modal tarjeta no valida](./src/img/f-novalida.png)
 
 
 ### Objetivos de aprendizaje cumplidos en el proyecto

@@ -29,7 +29,7 @@ document.getElementById("btn-verificar").addEventListener("click", () => {
       document.getElementById("msj-valid").innerHTML = "Puedes continuar con tu compra.";
       setTimeout(function(){ 
         document.getElementById("third-section").style.display = "none"; 
-      }, 2000);
+      }, 7000);
     } else{
       document.getElementById("third-section").style.display = "block";
       document.getElementById("img-c").src="img/boton-x.png";
@@ -37,7 +37,7 @@ document.getElementById("btn-verificar").addEventListener("click", () => {
       document.getElementById("msj-valid").innerHTML = "Intentalo nuevamente";
       setTimeout(function(){ 
         document.getElementById("third-section").style.display = "none"; 
-      }, 2000);
+      }, 7000);
     }
    }else{
     popup.innerHTML = "Contiene caracteres diferentes a números";
