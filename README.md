@@ -1,5 +1,62 @@
 # Tarjeta de crédito válida
 
+## EXPLICACCIÓN DEL PROYECTO
+
+Esta es una aplicación web de una tienda ecologica que tiene como objetivo brindar a sus clientes la posibilidad 
+de verificar si su tarjeta es valida o no antes de generar la compra. 
+
+
+## 1. Definición del producto
+
+Se define que sera una tienda ecologica en linea que ayude a disminuir el impacto de medio ambiente, se usa una paleta de colores en verdes y amarillos y se define que el nombre de la tienda sera Green·store.
+
+* Planeación 
+La planeación fue un item muy importante para establecer el paso a paso del proyecto. Comenzamos haciendo un prototipo sketch para luego pasarlo a un prototipo wreframe esto fue con la herramienta figma.
+ 
+## Sketch 
+![](./src/img/prototipo1.jpeg)
+![](./src/img/prototipo1.jpeg)
+
+## Wreframe
+![](./src/img/Pantalla1.PNG)
+![](./src/img/pantalla2.PNG)
+![](./src/img/modalvalido.PNG)
+![](./src/img/modalinvalido.PNG)
+
+
+## Resultado Final
+
+![](./src/img/appfinalp1.PNG)
+![](./src/img/appfinalp2.PNG)
+![](./src/img/appfinalmova.PNG)
+![](./src/img/appfinalmoinva.PNG)
+
+* POPUP 
+- se muestra en caso de que los digitos no sean numeros, tenga espacio u otro caracter o este vacio.
+![](./src/img/popupsolonumeros.PNG)
+![](./src/img/popupvacio.PNG)
+
+
+
+## Aprendizaje
+
+* GitHub
+* Manejo del DOM
+* Menejo de eventos de DOM
+* HTML semantico
+* Selectores CSS
+* Testeo unitario
+* Node.js
+* UX/UI
+* Nomenclatura y semantica
+* Uso de Bucles (for)
+* Uso de condiciones (if...else, operador ternario)
+* Manejo de string, arrays, variables, argumenos y parametros
+
+
+
+# Tarjeta de crédito válida
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)

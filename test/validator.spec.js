@@ -41,4 +41,36 @@ describe('validator', () => {
       expect(validator.maskify('helloworld')).toBe('######orld');
     });
   });
+
+  describe('validator.isNumber', () => {
+    it('debería ser una función', () => {
+      expect(typeof validator.isNumber).toBe('function');
+    });
+
+    it('Debería retornar true para "0123456789"', () => {
+      expect(validator.isNumber('0123456789')).toBe(true);
+    });
+
+    it('Debería retornar true para "987654321"', () => {
+      expect(validator.isNumber('987654321')).toBe(true);
+    });
+
+    it('Debería retornar debería retornar false para "helloworld"', () => {
+      expect(validator.isNumber('helloworld')).toBe(false);
+    });
+
+    it('Debería retornar debería retornar false para "123helloworld2365"', () => {
+      expect(validator.isNumber('123helloworld2365')).toBe(false);
+    });
+
+    it('Debería retornar debería retornar false para "12.145,231*124/4+"', () => {
+      expect(validator.isNumber('12.145,231*124/4+')).toBe(false);
+    });
+
+    it('Debería retornar debería retornar false para "52 78 4696 12 "', () => {
+      expect(validator.isNumber('52 78 4696 12')).toBe(false);
+    });
+  });
+
+
 });
