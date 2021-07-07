@@ -23,7 +23,7 @@ document.getElementById("btnverificar").addEventListener("click", () => {
     
       if (isValidCreditCard) {
       document.getElementById("mymodalcorrect").style.display = "block";
-      document.getElementById("imgcorrect").src="img/correctvalidcard.svg"
+      document.getElementById("imgcorrect").src="Img/correctvalidcard.svg"
       document.getElementById("validcard").innerText="Tu tarjeta \n "+ maskifyNumber + "  es valida,";
       document.getElementById("msjvalid").innerText="puedes continuar con tu compra";
           setTimeout(function(){ 
@@ -32,7 +32,7 @@ document.getElementById("btnverificar").addEventListener("click", () => {
       
     } else {
       document.getElementById("mymodalcorrect").style.display = "block";
-      document.getElementById("imgcorrect").src="img/errorvalidcard.svg";
+      document.getElementById("imgcorrect").src="./img/errorvalidcard.svg";
       document.getElementById("validcard").innerText="Tu tarjeta \n "+ maskifyNumber + "  es invalida,";
       document.getElementById("msjvalid").innerText="intentalo de nuevo";
           setTimeout(function(){ 
