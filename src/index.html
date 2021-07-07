@@ -10,24 +10,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <header></header>
+  <body id="bd-s">
+    <header id="hder" style="display: none;">
+      <h1 class="h1-header">G R E E N<span class="h1-span">&middot;s t o r e</span> </h1>
+      <img class="img-logo-hder" src="img/planet-earth.png" alt="planet-earth">
+    </header>
     <main>
       <section id="first-section">
-        <h1 class="h1-brand">GREEN· <span class="h1-span">&middot;store</span> </h1>
+        <h1 class="h1-brand">G R E E N<span class="h1-span">&middot;s t o r e</span> </h1>
         <img class="img-logo" src="img/planet-earth.png" alt="planet-earth">
         <button id="btn-next" class="btn" type="submit">Continuar</button>
       </section>
-      <section id="second-section" style="display:none;">
+      <section id="second-section"  class="container-div" style="display:none;">
         <form action="" id="formTc">
+          <h2 class="vt"> Valida tu tarjeta</h2>
+          <div class="popup" >
+            <span class="popuptext" id="myPopup"></span>
+          </div>
+          <!-- <div id="popUp" >
+            <div class="triangulo-2"></div> -->
+            <span class="popuptext" id="myPopup"></span>
+          <!-- </div> -->
           <input type="text" id="numberTc">
-          <button type="submit" id="botonalerta">Verificar</button>
-          <button type="submit">Limpiar</button>
-        </form>
+          
+          <div id="dv-btn">
+            <button type="submit" id="btn-verificar" class="linea">Verificar</button>
+            <button type="submit" id="btn-limpiar" class="linea">Limpiar</button>
+          </div>
+        </form>        
+      </section>
+      <section id="third-section" class="modal-correct">
+        <div class="modal-content">
+          <h2 id="valid-card-modal"></h2>
+          <img id="img-c" alt="">
+          <h3 id="msj-valid"></h3>
+        </div>
       </section>
     </main>
-
-    <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
+  <footer id="fter">
+    <div id="wave">
+      <div id="d1" class="box"></div>
+    </div>
+  </footer>
 </html>

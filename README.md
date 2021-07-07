@@ -1,3 +1,46 @@
+# Documentación Tarjeta de crédito válida
+
+# Green Store
+
+## Descripción del proyecto
+
+### Explicación del proyecto
+
+#### Prototipo en papel
+![](img/prototipo1.jpeg){width='100px'} 
+![](img/prototipo2.jpeg){width='100px'} 
+
+
+### Objetivos de aprendizaje cumplidos en el proyecto
+
+* [ ] [Uso de HTML semántico.]
+* 
+
+
+### 1. Definición del producto:
+* Tienda en línea: Artículos ecológicos para uso diario
+### 1.2 Objetivos de  usuarios en relación con el producto.
+* Comprar productos que ayuden a disminuir el impacto ambiental que produce el consumo humano
+### 1.3 ¿Quiénes son los principales usuarios del producto?
+* Cualquier persona interesada en cuidar el medio ambiente y su salud.
+### 1.4 Colores y marca
+* Paleta de colores: verdes y amarillo
+* Marca: Green Store
+
+### 1.5 ¿Que problema soluciona?
+* Al ser una tienda ecológica  se enfoca en el cuidado del medio ambiente, productos orgánicos, reutilizables o reciclados. El producto va enfocado a cuidar planeta e intentar causar el menor daño ambiental posible, ayuda  los usuarios ya que les ofrece una alternativa diferente a lo que se encuentra tradicionalmente, antes de realizar la compra permite verificar la tarjeta.
+
+## 2 Pantallas
+* Pantalla 1: Nombre, logo y botón continuar
+* Pantalla 2: Verificador de tarjeta con botones:
+  * [Verificar] (Mostrar ventana modal que indique tarjeta correcta o incorrecta, oculta los digitos menos los ultimos 4) 
+  * [Limpiar] (borra el número digitado y permite ingresar uno nuevo)
+* [popup]: se muestra en caso de ingresar un campo vacio, contenga espacios o caracteres como signos o letras
+
+
+
+
+
 # Tarjeta de crédito válida
 
 ## Índice

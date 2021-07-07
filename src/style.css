@@ -1,5 +1,10 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
 .img-logo{
-    width: 30%;
+    width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -10,7 +15,8 @@
     font-size: 80px;
     text-align: center;
     margin: 20px auto;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    padding-top: 100px;
     color: rgb(95,92,92);
     font-family: 'Contrail One', cursive;
 }
@@ -33,8 +39,319 @@
     box-shadow: 2px 3px 2px gray;
 }
 
+#second-section{
+    padding-top: 50px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 75px;
+    gap: 10px;
+    justify-items: center;
+}
+
+.container-div {
+  width: 100%;
+}
+
 body{
+    /* display: flex; */
+    /* flex-flow: column wrap; */
     background: linear-gradient(90deg, rgb(242, 245, 72) , rgba(158, 252, 34, 0.603));
-    height: 100vh;
-    overflow: hidden;
+    height: auto;
+}
+
+.h1-header{
+  font-size: 30px;
+  text-align: left;
+  margin: auto;
+  padding-left: 20px;
+  color: rgb(95,92,92);
+  font-family: 'Contrail One', cursive;
+  display: inline-block;
+}
+
+.img-logo-hder{
+  width: 8%;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.vt{
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 35;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  /* -webkit-text-stroke: 2px green; */
+  color: #98CA3F; 
+}
+
+#numberTc{
+  text-align: center;
+  width: 300px;
+  height: 28px;
+  border-radius: 18px;
+  border: 1.5px solid #9B9B9B;
+  box-shadow: 2px 2px 2px rgb(109, 109, 109);
+  position: relative;
+  top: 120px;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#numberTc:focus-within{
+  background-color: #98CA3F, 0.5;
+}
+
+#numberTc:focus{
+  outline: none;
+  color: greenyellow;
+}
+
+.linea{
+  display: inline-block;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  position: relative;
+  top: 30px;
+  margin: 20px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#dv-btn{
+  text-align: center;
+  position: relative;
+  top: 150px;
+} 
+
+#btn-verificar{
+  color: #7E96A5;
+  border: 1px solid #7e96a5;
+}
+
+#btn-verificar:hover {
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#btn-verificar:active {
+  background-color: #3e8e41;
+  box-shadow: 0,5px #666;
+  transform: translateY(4px);
+}
+
+#btn-limpiar{
+  background: #98CA3F;
+  color: white;
+  border: 1px solid #98ca3f;
+}
+
+#btn-limpiar:hover {
+  box-shadow: 0 10px 12px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#btn-limpiar:active {
+  background-color: #3e8e41;
+  box-shadow: 0,5px #666;
+  transform: translateY(4px);
+}
+
+.box{
+  border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
+}
+
+footer{
+  background: linear-gradient(90deg, rgba(234, 238, 10, 0.6), rgba(162, 240, 44, 0.616));
+  width: 100%;
+  height: 4%;
+  bottom: 0;
+  position: absolute;
+  display: none;
+  z-index: 0;
+}
+
+#d2{
+  border-radius: 120px 90px 60px 30px/30px 60px 90px 120px;
+}
+
+#valid-card-modal{
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  top: 160px;
+  text-align: center;
+}
+
+#msj-valid{
+  font-family: 'Montserrat', sans-serif;
+  color: #666;
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+#img-c{
+  position: relative;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 100px;
+  height: 100px;
+}
+
+/* MODAL */
+.modal-correct {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  z-index: 1;
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0,0.1); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  border-radius: 20px;
+  background-color: #ffffffa2;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid (#888, 0.6);
+  width: 35%;
+  height: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#popUp{
+  position: relative;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #555;
+  color: white;
+  width: 150px;
+  border-radius: 8px 8px 8px;
+  padding: 5px 12px;
+  text-align: center;
+  display: block;
+}
+
+#popUp .triangulo-2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+#popUp .triangulo-2 {
+  position: relative;
+  top: 50%;
+  left: 50%;
+
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #555;
+  transform: translate(-50%, 60%);
+  /* border-bottom: 20px solid transparent;  */
+}
+
+@keyframes showPopUp{
+  from{ transform: scale(1.2);}
+  to{ transform: scale(1);}
+}
+
+.popup {
+    position: relative;
+    left: 50%;
+    top: 30px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: initial;
+    from{ transform: scale(1.2); }
+    to{ transform: scale(1); }
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  @keyframes showPopUp {
+    from{ transform: scale(1.2); }
+    to{ transform: scale(1); }
 }
