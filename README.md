@@ -18,23 +18,23 @@ La planeación fue un item muy importante para establecer el paso a paso del pro
 ![prototipo2](./src/Img/prototipo2.jpeg)
 
 ## Wreframe
-![pantalla1](./src/img/Pantalla1.PNG)
-![pantalla2](./src/img/pantalla2.PNG)
-![modalvalido](./src/img/modalvalido.PNG)
-![modalinvalido](./src/img/modalinvalido.PNG)
+![pantalla1](./src/Img/Pantalla1.PNG)
+![pantalla2](./src/Img/pantalla2.PNG)
+![modalvalido](./src/Img/modalvalido.PNG)
+![modalinvalido](./src/Img/modalinvalido.PNG)
 
 
 ## Resultado Final
 
-![aplicativo final pantalla1](./src/img/appfinalp1.PNG)
-![aplicativo final pantalla2](./src/img/appfinalp2.PNG)
-![aplicativo final modal valido](./src/img/appfinalmova.PNG)
-![aplicativo final modal invalido](./src/img/appfinalmoinva.PNG)
+![aplicativo final pantalla1](./src/Img/appfinalp1.png)
+![aplicativo final pantalla2](./src/Img/appfinalp2.PNG)
+![aplicativo final modal valido](./src/Img/appfinalmova.PNG)
+![aplicativo final modal invalido](src\Img\appfinalmoinva.PNG)
 
 * POPUP 
 - se muestra en caso de que los digitos no sean numeros, tenga espacio u otro caracter o este vacio.
-![popup solo numeros](./src/img/popupsolonumeros.PNG)
-![popup vacio](./src/img/popupvacio.PNG)
+![popup solo numeros](./src/Img/popupsolonumeros.PNG)
+![popup vacio](./src/Img/popupvacio.PNG)
 
 
 
