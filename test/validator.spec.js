@@ -42,11 +42,16 @@ describe('validator', () => {
     });
   });
 
+<<<<<<< HEAD
   describe('validator.isNumber', () =>{
+=======
+  describe('validator.isNumber', () => {
+>>>>>>> 3e4168474dbbe5ae7c59f6a48e4cb5a014afc561
     it('debería ser una función', () => {
       expect(typeof validator.isNumber).toBe('function');
     });
 
+<<<<<<< HEAD
     it('Debería retornar true para "4556364607935616"', () => {
       expect(validator.isNumber('4556364607935616')).toBe(true);
     });
@@ -63,4 +68,32 @@ describe('validator', () => {
       expect(validator.isNumber('11 111 111')).toBe(false);
     });
   });
+=======
+    it('Debería retornar true para "0123456789"', () => {
+      expect(validator.isNumber('0123456789')).toBe(true);
+    });
+
+    it('Debería retornar true para "987654321"', () => {
+      expect(validator.isNumber('987654321')).toBe(true);
+    });
+
+    it('Debería retornar debería retornar false para "helloworld"', () => {
+      expect(validator.isNumber('helloworld')).toBe(false);
+    });
+
+    it('Debería retornar debería retornar false para "123helloworld2365"', () => {
+      expect(validator.isNumber('123helloworld2365')).toBe(false);
+    });
+
+    it('Debería retornar debería retornar false para "12.145,231*124/4+"', () => {
+      expect(validator.isNumber('12.145,231*124/4+')).toBe(false);
+    });
+
+    it('Debería retornar debería retornar false para "52 78 4696 12 "', () => {
+      expect(validator.isNumber('52 78 4696 12')).toBe(false);
+    });
+  });
+
+
+>>>>>>> 3e4168474dbbe5ae7c59f6a48e4cb5a014afc561
 });

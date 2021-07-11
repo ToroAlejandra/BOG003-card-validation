@@ -55,6 +55,63 @@
 
 # Tarjeta de crédito válida
 
+## EXPLICACCIÓN DEL PROYECTO
+
+Esta es una aplicación web de una tienda ecologica que tiene como objetivo brindar a sus clientes la posibilidad 
+de verificar si su tarjeta es valida o no antes de generar la compra. 
+
+
+## 1. Definición del producto
+
+Se define que sera una tienda ecologica en linea que ayude a disminuir el impacto de medio ambiente, se usa una paleta de colores en verdes y amarillos y se define que el nombre de la tienda sera Green·store.
+
+* Planeación 
+La planeación fue un item muy importante para establecer el paso a paso del proyecto. Comenzamos haciendo un prototipo sketch para luego pasarlo a un prototipo wreframe esto fue con la herramienta figma.
+ 
+## Sketch 
+![prototipo1](./src/Img/prototipo1.jpeg)
+![prototipo2](./src/Img/prototipo2.jpeg)
+
+## Wreframe
+![pantalla1](./src/Img/Pantalla1.PNG)
+![pantalla2](./src/Img/pantalla2.PNG)
+![modalvalido](./src/Img/modalvalido.PNG)
+![modalinvalido](./src/Img/modalinvalido.PNG)
+
+
+## Resultado Final
+
+![aplicativo final pantalla1](./src/Img/appfinalp1.PNG)
+![aplicativo final pantalla2](./src/Img/appfinalp2.PNG)
+![aplicativo final modal valido](./src/Img/appfinalmova.PNG)
+![aplicativo final modal invalido](./src/Img/appfinalmoinva.PNG)
+
+* POPUP 
+- se muestra en caso de que los digitos no sean numeros, tenga espacio u otro caracter o este vacio.
+![popup solo numeros](./src/Img/popupsolonumeros.PNG)
+![popup vacio](./src/Img/popupvacio.PNG)
+
+
+
+## Aprendizaje
+
+* GitHub
+* Manejo del DOM
+* Menejo de eventos de DOM
+* HTML semantico
+* Selectores CSS
+* Testeo unitario
+* Node.js
+* UX/UI
+* Nomenclatura y semantica
+* Uso de Bucles (for)
+* Uso de condiciones (if...else, operador ternario)
+* Manejo de string, arrays, variables, argumenos y parametros
+
+
+
+# Tarjeta de crédito válida
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
