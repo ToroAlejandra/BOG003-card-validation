@@ -9,7 +9,6 @@ const validator = {
 
     for (let i = 0; i < creditCardNumber.length; i++) {
       creditCardNumberInverse[i] = creditCardNumber[creditCardNumber.length - (i + 1)];
-     
     }
 
     for (let i = 0; i < creditCardNumberInverse.length; i++) {
@@ -69,5 +68,5 @@ const validator = {
 };
 
 
- //isNumber : (creditCardNumber) => !/\D/.test(creditCardNumber),
+//isNumber : (creditCardNumber) => !/\D/.test(creditCardNumber),
 export default validator;

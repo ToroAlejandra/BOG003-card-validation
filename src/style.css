@@ -109,6 +109,8 @@ body{
 #numberTc:focus{
   outline: none;
   color: greenyellow;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(109, 109, 109, 0.5);
 }
 
 .linea{
